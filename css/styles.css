@@ -102,7 +102,7 @@ h1,
     font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-weight: 700;
     line-height: 1.2;
-    color: #e20e0e;
+    color: #f38383;
 }
 
 h1,
@@ -10829,7 +10829,7 @@ section.resume-section .resume-section-content {
 }
 
 .emailAddress {
-    color: rgb(37, 199, 5);
+    color: #90f37c;
 }
 
 #learn {
@@ -10862,4 +10862,55 @@ section.resume-section .resume-section-content {
 
 .resume-section-content h3{
     color: #91a9bf;
+}
+
+.column {
+    width: 50%;
+    padding: 10px;
+}
+
+.column svg {
+    font-size: 50px!important;
+}
+
+.row:after {
+    content: "";
+    display: flex;
+    clear: both;
+}
+
+.skills {
+    text-align: center;
+    color: rgb(14, 12, 12);
+    background-color: grey;
+    border-radius: 15px;
+}
+
+.skills div {
+    border-radius: 15px;
+}
+
+.html {
+    width: 100%;
+    background-color: #04AA6D;
+}
+
+.css {
+    width: 100%;
+    background-color: #54a9ec;
+}
+
+.js {
+    width: 50%;
+    background-color: #fb6155;
+}
+
+.php {
+    width: 20%;
+    background-color: #f3f058;
+}
+
+.bootstrap {
+    width: 90%;
+    background-color: #a2f175;
 }
